@@ -1,6 +1,10 @@
+import React from 'react';
+import NotesCollection from '../components/notescollection.component';
 const NotesPage=()=>{
     return(
-        <h2>Notes Page</h2>
+        <React.Fragment>
+            <NotesCollection/>
+        </React.Fragment>
     )
 }
 export default NotesPage;
